@@ -60,13 +60,6 @@ CELERYBEAT_SCHEDULE = {
 
 
 
-
-
-TWILIO_ACCOUNT_SID = "AC2cd252c0f046fbe426a05a98fffec024"
-TWILIO_AUTH_TOKEN = "d2591eb416a8227e151572d54fbd1876"
-TWILIO_WHATSAPP_NUMBER = "+14155238886"
-
-
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
