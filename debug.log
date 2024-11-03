@@ -1,0 +1,309 @@
+Watching for file changes with StatReloader
+Not Found: /
+Method Not Allowed: /send-message/
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Method Not Allowed: /send-message/
+/Users/saquibn/whatsapp_automation/whatsapp_automation/celery.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/tasks.py changed, reloading.
+Watching for file changes with StatReloader
+Successfully processed message from +917870650300
+Not Found: /
+Not Found: /favicon.ico
+Method Not Allowed: /webhook/
+Forbidden (Origin checking failed - https://c1b1-103-225-57-1.ngrok-free.app does not match any trusted origins.): /admin/login/
+/Users/saquibn/whatsapp_automation/whatsapp_automation/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (Origin checking failed - https://c1b1-103-225-57-1.ngrok-free.app does not match any trusted origins.): /admin/login/
+Forbidden (Origin checking failed - https://c1b1-103-225-57-1.ngrok-free.app does not match any trusted origins.): /admin/login/
+Not Found: /apple-touch-icon.png
+Not Found: /apple-touch-icon-precomposed.png
+Not Found: /favicon.ico
+Not Found: /
+Successfully processed message from +917870650300
+Successfully processed message from +917870650300
+Watching for file changes with StatReloader
+Not Found: /
+/Users/saquibn/whatsapp_automation/whatsapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /automatic/
+Not Found: /favicon.ico
+Not Found: /automatic/
+Not Found: /
+Internal Server Error: /automatic
+Traceback (most recent call last):
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/local.py", line 182, in __call__
+    return self._get_current_object()(*a, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/app/task.py", line 411, in __call__
+    return self.run(*args, **kwargs)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: schedule_messages() takes 0 positional arguments but 1 was given
+Not Found: /n
+/Users/saquibn/whatsapp_automation/whatsapp_automation/celery.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/tasks.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/tasks.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/tasks.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/tasks.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /apple-touch-icon-precomposed.png
+Not Found: /apple-touch-icon.png
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x10be99160>> raised: NameError("name '_' is not defined")
+Traceback (most recent call last):
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/fixups/django.py", line 100, in on_import_modules
+    self.worker_fixup.validate_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/fixups/django.py", line 138, in validate_models
+    self.django_setup()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/fixups/django.py", line 134, in django_setup
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/saquibn/whatsapp_automation/whatsapp/models.py", line 25, in <module>
+    class MessageTemplate(models.Model):
+    ...<35 lines>...
+            return f"Day {self.day_number}: {self.name}"
+  File "/Users/saquibn/whatsapp_automation/whatsapp/models.py", line 39, in MessageTemplate
+    verbose_name=_("Hindi Content"),
+                 ^
+NameError: name '_' is not defined
+Signal handler <promise@0x10be6a210 --> <bound method Celery._autodiscover_tasks of <Celery whatsapp_automation at 0x10bddf770>>> raised: NameError("name '_' is not defined")
+Traceback (most recent call last):
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/vine/promises.py", line 161, in __call__
+    return self.throw()
+           ~~~~~~~~~~^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/vine/promises.py", line 158, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/app/base.py", line 694, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/app/base.py", line 703, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+        pkg for fixup in self._fixups
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        if hasattr(fixup, 'autodiscover_tasks')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        for pkg in fixup.autodiscover_tasks()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ], related_name=related_name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/app/base.py", line 698, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        packages() if callable(packages) else packages, related_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/loaders/base.py", line 220, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+                            ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+                                               related_name) if mod)
+                                               ^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/loaders/base.py", line 246, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    return importlib.import_module(module_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/saquibn/whatsapp_automation/whatsapp/tasks.py", line 4, in <module>
+    from .models import MessageLog, Recipient, MessageTemplate
+  File "/Users/saquibn/whatsapp_automation/whatsapp/models.py", line 25, in <module>
+    class MessageTemplate(models.Model):
+    ...<35 lines>...
+            return f"Day {self.day_number}: {self.name}"
+  File "/Users/saquibn/whatsapp_automation/whatsapp/models.py", line 39, in MessageTemplate
+    verbose_name=_("Hindi Content"),
+                 ^
+NameError: name '_' is not defined
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/whatsapp/messagelog/135/change/
+Traceback (most recent call last):
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/models/fields/related_descriptors.py", line 239, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/models/fields/mixins.py", line 37, in get_cached_value
+    return instance._state.fields_cache[self.cache_name]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'recipient'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: whatsapp_recipient.start_date
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/contrib/admin/options.py", line 1964, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/contrib/admin/options.py", line 1930, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+                ~~~^^^^^
+  File "/Users/saquibn/whatsapp_automation/whatsapp/models.py", line 67, in __str__
+    return f"{self.recipient.name} - {self.sent_at}"
+              ^^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/models/fields/related_descriptors.py", line 257, in __get__
+    rel_obj = self.get_object(instance)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/models/fields/related_descriptors.py", line 220, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/saquibn/whatsapp_automation/env1/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: whatsapp_recipient.start_date
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/saquibn/whatsapp_automation/whatsapp/models.py changed, reloading.
+Watching for file changes with StatReloader
