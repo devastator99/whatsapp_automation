@@ -1,124 +1,231 @@
 from django.db import models
-from django.core.validators import URLValidator
 from django.utils import timezone
 
+
 class Recipient(models.Model):
-    """
-    Represents message recipients with their subscription status and progress
-    """
-    name = models.CharField(max_length=100)
+    LANGUAGE_CHOICES = [
+        ('en', 'English'),
+        ('hi', 'Hindi'),
+    ]
+
     phone_number = models.CharField(
-        max_length=20, 
-        unique=True,  # Ensures no duplicate phone numbers
+        max_length=15,
+        unique=True,
+        help_text="WhatsApp number with country code (e.g., +911234567890)"
     )
-    start_date = models.DateField()  # When the message sequence starts
-    current_day = models.IntegerField(
-        default=1,  # Tracks which day's message should be sent next
+    name = models.CharField(
+        max_length=100,
+        default='New_User',
+        help_text="Recipient's full name",
+        blank=True
+    )
+    preferred_language = models.CharField(
+        max_length=2,
+        choices=LANGUAGE_CHOICES,
+        default='en',
+        help_text="Preferred language for communication"
     )
     is_active = models.BooleanField(
-        default=True,  # Controls whether recipient should receive messages
+        default=True,
+        help_text="Whether the recipient is active and should receive messages"
     )
-
-    created_at = models.DateTimeField(default=timezone.now)
-    updated_at = models.DateTimeField(auto_now=True)
+    created_at = models.DateTimeField(
+        auto_now_add=True
+    )
+    subscription_day_number = models.IntegerField(
+        default=1,
+        help_text="Day number when the user subscribed and will increment after every message."
+    )
+    email = models.EmailField(
+        null=True,
+        blank=True,
+        help_text="Recipient's email address"
+    )
+    pending_plan = models.CharField(
+        max_length=100,
+        null=True,
+        blank=True,
+        help_text="Plan selected but not yet paid for"
+    )
+    pending_amount = models.PositiveIntegerField(
+        null=True,
+        blank=True,
+        help_text="Amount pending for selected plan"
+    )
+    current_plan = models.CharField(
+        max_length=100,
+        null=True,
+        blank=True,
+        help_text="Currently active plan"
+    )
+    payment_status = models.CharField(
+        max_length=20,
+        default='pending',
+        help_text="Status of latest payment"
+    )
+    selected_plan = models.CharField(max_length=10, null=True, blank=True)
 
     class Meta:
-        ordering = ['-start_date']  # Orders recipients by start date
+        indexes = [
+            models.Index(fields=['phone_number']),
+            models.Index(fields=['is_active']),
+        ]
 
     def __str__(self):
         return f"{self.name} ({self.phone_number})"
 
-    def advance_day(self):
-        """Advance the current day counter"""
-        self.current_day += 1
-        self.save()
-
 
 class MessageTemplate(models.Model):
-    """
-    Stores message templates for different days in the sequence
-    """
+    day_number = models.IntegerField(
+        help_text="Day number when this message should be sent",
+        default=1
+    )
     name = models.CharField(
         max_length=100,
-        unique=True,
-        help_text="Template name/identifier"
-    )
-    day_number = models.IntegerField(
-        # unique=True,  # Ensures only one template per day
-        help_text="Day in sequence when this message should be sent",
-        db_index=True,  # Improves query performance
-        default=1  
-    )
-    message_text = models.TextField(
-        help_text="Message content to be sent"
+        help_text="Template name for identification"
     )
     link = models.URLField(
-        max_length=500,
-        validators=[URLValidator()],
-        blank=True,
+        max_length=200,
         null=True,
-        help_text="Optional URL to be included in the message"
+        blank=True,
+        help_text="Optional URL to send along with the template message"
+    )
+    english_template = models.TextField(
+        help_text="Message template in English. Use {name} for recipient name."
+    )
+    hindi_template = models.TextField(
+        help_text="Message template in Hindi. Use {name} for recipient name."
     )
     is_active = models.BooleanField(
         default=True,
-        help_text="Whether this template is currently active"
+        help_text="Whether this template is currently in use"
     )
-    created_at = models.DateTimeField(default=timezone.now)
-    updated_at = models.DateTimeField(auto_now=True)
+    created_at = models.DateTimeField(
+        auto_now_add=True
+    )
 
     class Meta:
-        ordering = ['day_number']  # Orders templates by day number
+        indexes = [
+            models.Index(fields=['day_number']),
+            models.Index(fields=['is_active']),
+        ]
+        ordering = ['day_number']
 
     def __str__(self):
         return f"Day {self.day_number}: {self.name}"
 
-    def get_full_message(self):
-        """Returns the complete message with link if present"""
-        if self.link:
-            return f"{self.message_text}\n\n{self.link}"
-        return self.message_text
+    def get_template_for_language(self, language):
+        return self.english_template if language == 'en' else self.hindi_template
 
 
 class MessageLog(models.Model):
-    """
-    Logs all message sending attempts and their outcomes
-    """
     STATUS_CHOICES = [
-        ('pending', 'Pending'),
-        ('sent', 'Sent'),
-        ('failed', 'Failed'),
-        ('delivered', 'Delivered')
+        ('PENDING', 'Pending'),
+        ('SENT', 'Sent'),
+        ('DELIVERED', 'Delivered'),
+        ('FAILED', 'Failed'),
+        ('READ', 'Read'),
+        ('PAID', 'Paid'),
     ]
 
     recipient = models.ForeignKey(
-        Recipient, 
+        Recipient,
         on_delete=models.CASCADE,
         related_name='message_logs'
     )
     template = models.ForeignKey(
-        MessageTemplate, 
-        on_delete=models.CASCADE,
+        MessageTemplate,
+        on_delete=models.SET_NULL,
+        null=True,
         related_name='message_logs'
     )
     status = models.CharField(
-        max_length=20,
+        max_length=10,
         choices=STATUS_CHOICES,
-        default='pending'
+        default='PENDING'
     )
-    sent_at = models.DateTimeField(auto_now_add=True)
-    twilio_message_id = models.CharField(
-        max_length=100, 
+    sent_at = models.DateTimeField(
         null=True,
         blank=True
     )
     error_message = models.TextField(
         null=True,
+        blank=True
+    )
+    whatsapp_message_id = models.CharField(
+        max_length=100,
+        null=True,
         blank=True,
-        help_text="Error message if sending failed"
+        help_text="Twilio message ID for tracking"
+    )
+    created_at = models.DateTimeField(
+        auto_now_add=True
     )
 
     class Meta:
-        ordering = ['-sent_at']  # Most recent messages first
+        indexes = [
+            models.Index(fields=['status']),
+            models.Index(fields=['sent_at']),
+            models.Index(fields=['created_at']),
+        ]
+        ordering = ['-created_at']
 
     def __str__(self):
-        return f"{self.recipient.name} - {self.sent_at}"
+        recipient_name = self.recipient.name if self.recipient else "Unknown Recipient"
+        template_name = self.template.name if self.template else "No Template"
+        return f"{recipient_name} - {template_name} ({self.status})"
+
+
+class Invoice(models.Model):
+    recipient = models.ForeignKey(
+        Recipient,
+        on_delete=models.CASCADE,
+        related_name='invoices'
+    )
+    payment_id = models.CharField(
+        max_length=100,
+        help_text="Razorpay payment ID"
+    )
+    payment_status = models.CharField(
+        max_length=20,
+        help_text="Payment status (e.g., 'paid', 'failed')"
+    )
+    amount = models.PositiveIntegerField(
+        help_text="Amount paid, in paise"
+    )
+    plan_name = models.CharField(
+        max_length=100,
+        help_text="Name of the subscribed plan"
+    )
+    created_at = models.DateTimeField(
+        auto_now_add=True
+    )
+    invoice_id = models.CharField(max_length=100, null=True, blank=True)
+    invoice_number = models.CharField(max_length=100, null=True, blank=True)
+    invoice_url = models.URLField(null=True, blank=True)
+
+    class Meta:
+        indexes = [
+            models.Index(fields=['payment_id']),
+            models.Index(fields=['payment_status']),
+            models.Index(fields=['created_at']),
+        ]
+        ordering = ['-created_at']
+
+    def __str__(self):
+        return f"{self.recipient.phone_number} - {self.plan_name} ({self.payment_status})"
+
+
+
+class Quotes(models.Model):
+    quote = models.TextField(
+        help_text="Quotes from swami vivekananda"
+    )
+
+    class Meta:
+        indexes = [
+            models.Index(fields=['quote']),
+        ]
+
+    def __str__(self):
+        return f"{self.quote}"

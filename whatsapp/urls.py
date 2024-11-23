@@ -1,12 +1,11 @@
-from django.contrib import admin
+
 from django.urls import path
-from whatsapp import views
-from whatsapp.scheduled_messages import schedule_messages
-
-
+from . import views
 
 urlpatterns = [
-    path('webhook/', views.webhook, name='webhook'),
-    path('send-message/', views.send_manual_message, name='send-manual-message'),
-    path('automatic',schedule_messages , name="schedule_messages"),
+    path('whatsapp-webhook/', views.whatsapp_webhook, name='whatsapp_webhook'),
+    path('razorpay-webhook/', views.razorpay_webhook, name='razorpay_webhook'),
+    path('payment-failure/', views.payment_failure, name='payment-failure'),
+    path('payment-success/', views.payment_success, name='payment-success'),
+    path('', views.home, name='home'),
 ]

@@ -1,0 +1,22 @@
+[
+    {
+        "model": "whatsapp.recipient",
+        "pk": 1,
+        "fields": {
+            "phone_number": "+91787650300",
+            "name": "John Doe",
+            "preferred_language": "English",
+            "is_active": true
+        }
+    },
+    {
+        "model": "whatsapp.recipient",
+        "pk": 2,
+        "fields": {
+            "phone_number": "+919204359779",
+            "name": "Jane Smith",
+            "preferred_language": "Hindi",
+            "is_active": true
+        }
+    }
+]

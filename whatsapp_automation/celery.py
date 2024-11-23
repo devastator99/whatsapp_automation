@@ -14,24 +14,30 @@ app = Celery('whatsapp_automation')
 app.config_from_object('django.conf:settings', namespace='CELERY')
 
 # Auto-discover tasks in all installed apps
-app.autodiscover_tasks()
+app.autodiscover_tasks(lambda: settings.INSTALLED_APPS)
 
 # Debug task (optional)
 @app.task(bind=True, ignore_result=True)
 def debug_task(self):
     print(f'Request: {self.request!r}')
 
-# Beat schedule configuration
+# Beat schedule configuration for daily template sending
 app.conf.beat_schedule = {
-    'send-scheduled-messages': {
-        'task': 'whatsapp.tasks.schedule_messages',  # Change this to your actual app and task name
-        'schedule': crontab(minute='*/1'), 
+    'send-scheduled-messages-every-day': {
+        'task': 'whatsapp.tasks.send_daily_templates',  # Adjust to your actual app and task path
+        'schedule': crontab(minute='*'),
+        'options': {'timezone': 'Asia/Kolkata'}, 
     },
-    # You can add more scheduled tasks here
+    # Other tasks can be added here
+    #  crontab(hour=9, minute=0), 
 }
+
+
+# 'schedule': crontab(minute='*')  # Send scheduled messages at  every minute
+
 
 # Optional task configuration
 app.conf.task_serializer = 'json'
 app.conf.result_serializer = 'json'
 app.conf.accept_content = ['json']
-app.conf.timezone = 'UTC'  # Set your timezone
+app.conf.timezone = 'Asia/Kolkata'  # Set your timezone (change to your local timezone)

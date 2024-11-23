@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    command: gunicorn whatsapp_automation.wsgi:application --bind 0.0.0.0:8080
+    volumes:
+      - .:/app
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    depends_on:
+      - celery
+      - celery-beat
+
+  celery:
+    build: .
+    command: celery -A whatsapp_automation worker --loglevel=INFO --concurrency=4
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+
+  celery-beat:
+    build: .
+    command: celery -A whatsapp_automation beat --loglevel=INFO
+    volumes:
+      - .:/app
+    env_file:
+      - .env

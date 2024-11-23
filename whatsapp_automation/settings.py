@@ -12,6 +12,11 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 import os
 from celery import Celery
 from pathlib import Path
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -24,10 +29,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-2&!--$3d(appnc14)9hk2ge1)kui4b87(=sc87lbvljvu@ix(a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["*",
-'https://c1b1-103-225-57-1.ngrok-free.app',]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -43,20 +47,28 @@ INSTALLED_APPS = [
     'django_celery_beat',
 ]
 
-CELERY_BROKER_URL = 'redis://localhost:6379/0'
-CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+
+TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID')
+TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN')
+TWILIO_WHATSAPP_NUMBER = os.getenv('TWILIO_WHATSAPP_NUMBER')
+
+CELERY_BROKER_URL = os.getenv('CELERY_BROKER_URL')
+CELERY_RESULT_BACKEND = os.getenv('CELERY_RESULT_BACKEND')
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 
-# Configure Celery
-CELERY_TIMEZONE = 'UTC'
-CELERYBEAT_SCHEDULE = {
-    'schedule-messages': {
-        'task': 'whatsapp.tasks.schedule_messages_periodically',
-        'schedule': 3600,  # Run every hour
-    },
-}
+RAZORPAY_KEY_ID = os.getenv('RAZORPAY_KEY_ID')
+RAZORPAY_SECRET_KEY = os.getenv('RAZORPAY_SECRET_KEY')
+PAYMENT_CALLBACK_URL = os.getenv('PAYMENT_CALLBACK_URL')
+RAZORPAY_WEBHOOK_SECRET = os.getenv('RAZORPAY_WEBHOOK_SECRET')
+
+
+
+# # You can set this dynamically depending on your environment (development/production)
+# PAYMENT_CALLBACK_URL = 'http://yourwebsite.com/payment-callback'
+
+
 
 
 
