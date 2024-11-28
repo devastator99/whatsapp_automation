@@ -404,8 +404,7 @@ def process_successful_payment(payment_data):
 
         logger.info("-----------9-------------")
 
-        message_sid = send_whatsapp_message(
-            recipient.phone_number, confirmation_message)
+        message_sid = send_whatsapp_message(to = recipient.phone_number,message= confirmation_message)
 
         logger.info("------------10------------")
 
