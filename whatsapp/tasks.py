@@ -10,7 +10,8 @@ logger = logging.getLogger(__name__)
 @shared_task
 def send_daily_templates():
     today = timezone.now().day
-    recipients = Recipient.objects.filter(is_active=True)  
+    recipients = Recipient.objects.filter(is_active=True)
+    
 
     for recipient in recipients:
         try:
@@ -33,7 +34,7 @@ def send_daily_templates():
 
                 logger.info(f"Sending message to {recipient.phone_number}: {message}")
                 
-                message_sid = send_whatsapp_message(recipient.phone_number, message)
+                message_sid = send_whatsapp_message(to=recipient.phone_number,message= message)
                 logger.info(f"Message sent successfully to {recipient.phone_number}, Message SID: {message_sid}")
                 
                 # Log

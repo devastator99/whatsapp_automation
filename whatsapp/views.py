@@ -14,6 +14,7 @@ import json
 import time
 
 
+
 logger = logging.getLogger(__name__)
 timestamp = int(time.time())
 
@@ -52,48 +53,19 @@ PLAN_NAMES = {
 }
 
 
-def get_plan_info(plan_number):
-    plan_details = {
-        "1": (
-            f"1️⃣ *General Dietary Consultation* – ₹249 \n\n"
-            f"🔍 *Overview:* \n"
-            f"📖 A personalized consultation focused on improving your daily nutrition. Get expert advice on meal planning, portion control, and how to make healthier food choices.\n\n"
-            f"💡 *What You'll Get:* \n"
-            f"🕒 • A 30-minute session with a certified nutritionist.\n"
-            f"📋 • Customized dietary advice based on your health goals.\n"
-            f"🍽️ • Recommendations for balanced meals tailored to your lifestyle.\n\n"
-            f"❓ Would you like to proceed with this plan? Reply with *yes* to continue or *menu* to go back."
-        ),
-        "2": (
-            f"🌟 *Diabetes Reversal & Care Program* - ₹1500\n"
-            f"🩺 • Comprehensive diabetes management plan\n"
-            f"📈 • Regular blood sugar monitoring guidance\n"
-            f"🥗 • Customized diet and exercise plans\n"
-            f"🕒 • 3 months of expert support\n"
-            f"📊 • Regular progress tracking\n\n"
-            f"❓ Would you like to proceed with this plan? Reply with *yes* to continue or *menu* to go back."
-        ),
-        "3": (
-            f"🌟 *Weight Management & Care Program* - ₹1500\n"
-            f"⚖️ • Personalized weight loss/gain strategy\n"
-            f"🏋️ • Custom workout plans\n"
-            f"🥗 • Nutrition guidance and meal planning\n"
-            f"🕒 • 3 months of expert support\n"
-            f"📊 • Body composition analysis\n\n"
-            f"❓ Would you like to proceed with this plan? Reply with *yes* to continue or *menu* to go back."
-        ),
-        "4": (
-            f"🌟 *Preventive Health Program* - ₹1200\n"
-            f"🩺 • Complete health risk assessment\n"
-            f"📋 • Preventive care recommendations\n"
-            f"🔄 • Lifestyle modification guidance\n"
-            f"📈 • Regular health monitoring\n"
-            f"🕒 • 2 months of expert support\n\n"
-            f"❓ Would you like to proceed with this plan? Reply with *yes* to continue or *menu* to go back."
-        )
-
+def get_templateid(template_key):
+    template_mapping = {
+        "1" : "HX401909eb770b3582fc1b93f816f0f737",  # Template ID 1
+        "2" : "HX6c6f2b8a3de9c3fbf9752d06796c374f",  # Template ID 2
+        "3" : "HXbba16f9b75de2d1c46ec7096a22e594c",
+        "4" : "HXdbbe90b4d4e7be2809d6cb1a63cb83f3",  
     }
-    return plan_details.get(plan_number)
+    
+    if template_key not in template_mapping:
+        raise ValueError(f"Invalid template key: {template_key}")
+    
+    return template_mapping.get(template_key)
+
 
 
 @csrf_exempt
@@ -106,6 +78,9 @@ def whatsapp_webhook(request):
         message_body = request.POST.get('Body', '').strip().lower()
         global whatsapp_number
         whatsapp_number = user_number
+
+        account_sid = settings.TWILIO_ACCOUNT_SID
+        auth_token = settings.TWILIO_AUTH_TOKEN
 
         logger.info(f"Received message from {user_number}: {message_body}")
 
@@ -126,7 +101,10 @@ def whatsapp_webhook(request):
             # Store the selected plan in the recipient model
             recipient.selected_plan = message_body
             recipient.save()
-            message = get_plan_info(message_body)
+            # message = get_plan_info(message_body)
+            templateid = get_templateid(message_body)
+            message_sid = send_whatsapp_message(to = recipient.phone_number,
+                                                templateid= templateid)
 
         elif message_body == "yes" and recipient.selected_plan:
             plan_number = recipient.selected_plan
@@ -180,12 +158,15 @@ def whatsapp_webhook(request):
 
         else:
             message = get_welcome_message()
+            # Sending a template message
+            # message_sid = send_whatsapp_message(to=recipient.phone_number,templateid="HX219fc6a91ce4b76621f1d87f90bbf1fb")
+
+        
 
         # Send WhatsApp message
         try:
-            message_sid = send_whatsapp_message(
-                recipient.phone_number, message)
-
+            message_sid = send_whatsapp_message(to=recipient.phone_number, message = message)
+            
             # Log the message
             MessageLog.objects.create(
                 recipient=recipient,
