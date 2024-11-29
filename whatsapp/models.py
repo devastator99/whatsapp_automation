@@ -84,17 +84,10 @@ class MessageTemplate(models.Model):
         max_length=100,
         help_text="Template name for identification"
     )
-    link = models.URLField(
-        max_length=200,
-        null=True,
-        blank=True,
-        help_text="Optional URL to send along with the template message"
-    )
-    english_template = models.TextField(
-        help_text="Message template in English. Use {name} for recipient name."
-    )
-    hindi_template = models.TextField(
-        help_text="Message template in Hindi. Use {name} for recipient name."
+    template_id = models.CharField(
+        max_length=50,
+        unique=True,
+        help_text="Unique ID for the template to send"
     )
     is_active = models.BooleanField(
         default=True,
@@ -114,9 +107,12 @@ class MessageTemplate(models.Model):
     def __str__(self):
         return f"Day {self.day_number}: {self.name}"
 
-    def get_template_for_language(self, language):
-        return self.english_template if language == 'en' else self.hindi_template
-
+    def get_template_by_day(self, day):
+        try:
+            template = MessageTemplate.objects.get(day_number=day, is_active=True)
+            return template.template_id
+        except MessageTemplate.DoesNotExist:
+            return None
 
 class MessageLog(models.Model):
     STATUS_CHOICES = [

@@ -27,14 +27,10 @@ def send_daily_templates():
             
             if template:
                 
-                message = template.get_template_for_language(recipient.preferred_language)
-
-                if template.link:
-                    message += f"\n\nCheck this out: {template.link}"
-
-                logger.info(f"Sending message to {recipient.phone_number}: {message}")
+                templateid = template.template_id
+                logger.info(f"Sending message to {recipient.phone_number}: {recipient.subscription_day_number}")
                 
-                message_sid = send_whatsapp_message(to=recipient.phone_number,message= message)
+                message_sid = send_whatsapp_message(to=recipient.phone_number,templateid=templateid)
                 logger.info(f"Message sent successfully to {recipient.phone_number}, Message SID: {message_sid}")
                 
                 # Log

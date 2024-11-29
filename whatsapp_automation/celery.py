@@ -25,7 +25,7 @@ def debug_task(self):
 app.conf.beat_schedule = {
     'send-scheduled-messages-every-day': {
         'task': 'whatsapp.tasks.send_daily_templates',  # Adjust to your actual app and task path
-        'schedule': crontab(minute='*/2'),
+        'schedule': crontab(minute='*/3'),
         'options': {'timezone': 'Asia/Kolkata'}, 
     },
     # Other tasks can be added here

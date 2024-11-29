@@ -55,14 +55,16 @@ PLAN_NAMES = {
 
 def get_templateid(template_key):
     template_mapping = {
-        "1" : "HX401909eb770b3582fc1b93f816f0f737",  # Template ID 1
-        "2" : "HX6c6f2b8a3de9c3fbf9752d06796c374f",  # Template ID 2
+        "1" : "HX401909eb770b3582fc1b93f816f0f737",  # PLAN INFO 1
+        "2" : "HX6c6f2b8a3de9c3fbf9752d06796c374f",  # PLAN INFO 2
         "3" : "HXbba16f9b75de2d1c46ec7096a22e594c",
-        "4" : "HXdbbe90b4d4e7be2809d6cb1a63cb83f3",  
+        "4" : "HXdbbe90b4d4e7be2809d6cb1a63cb83f3",
+        "5" : "HXfa57cb7d295f8e43447d82f41b11d976",  #WELCOME MESSAGE 
     }
     
     if template_key not in template_mapping:
-        raise ValueError(f"Invalid template key: {template_key}")
+        logger.error(f"invalid template key : {template_key}")
+        return template_mapping.get("5")
     
     return template_mapping.get(template_key)
 
@@ -87,6 +89,9 @@ def whatsapp_webhook(request):
         if not user_number:
             return JsonResponse({'status': 'error', 'message': 'No phone number provided'}, status=400)
 
+        message=None
+        templateid=None
+
         # Get or create recipient with default language
         recipient, created = Recipient.objects.get_or_create(
             phone_number=user_number,
@@ -103,8 +108,6 @@ def whatsapp_webhook(request):
             recipient.save()
             # message = get_plan_info(message_body)
             templateid = get_templateid(message_body)
-            message_sid = send_whatsapp_message(to = recipient.phone_number,
-                                                templateid= templateid)
 
         elif message_body == "yes" and recipient.selected_plan:
             plan_number = recipient.selected_plan
@@ -154,10 +157,10 @@ def whatsapp_webhook(request):
             # Clear the selected plan
             recipient.selected_plan = None
             recipient.save()
-            message = get_welcome_message()
+            templateid = get_templateid("5") 
 
         else:
-            message = get_welcome_message()
+            templateid = get_templateid("5")
             # Sending a template message
             # message_sid = send_whatsapp_message(to=recipient.phone_number,templateid="HX219fc6a91ce4b76621f1d87f90bbf1fb")
 
@@ -165,8 +168,12 @@ def whatsapp_webhook(request):
 
         # Send WhatsApp message
         try:
-            message_sid = send_whatsapp_message(to=recipient.phone_number, message = message)
-            
+            if templateid:
+                message_sid = send_whatsapp_message(to=recipient.phone_number,templateid=templateid)
+            elif message:
+                message_sid = send_whatsapp_message(to=recipient.phone_number, message = message)
+            else:
+                raise ValueError("No message var and no templateid var available!!!")
             # Log the message
             MessageLog.objects.create(
                 recipient=recipient,
