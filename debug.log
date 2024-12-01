@@ -15177,3 +15177,814 @@ Response Status Code: 201
 Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1760', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 12:18:05 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ105cb94d148457cddf293e112e0da2e5', 'Twilio-Request-Duration': '0.134', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 ea84202b1f8397767f86ec3f00985a12.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'bXb3bi8-qGktP_Yxf9xtIaHch2EHj0-BwbnFN-QGIKIZjoP5uOVdmQ=='}
 Message sent successfully. SID: MM105cb94d148457cddf293e112e0da2e5
 SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: bxbx
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1760', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 12:27:58 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ9936fcc239ff449cf7332d9f38768adf', 'Twilio-Request-Duration': '0.147', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 0df028dce5ff77b038214b2a6b5e7eaa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '7mrNXBM07QUngtfJ8ni4SLyzY1IlyBvLJxdFtKNtL4gjmVkRtbZhZQ=='}
+Message sent successfully. SID: MM9936fcc239ff449cf7332d9f38768adf
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: 1
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1412', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 12:28:18 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ5dfd35e41b48d1ad0eaa74b8882665cb', 'Twilio-Request-Duration': '0.155', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 30d6f8dde4b5a27a899bbabad07e3ed2.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'SnL8LvOcAF_fCUe-HqBCvd0aqC6WMMay8XgvoHCm0Eh51OPIaJNT7Q=='}
+Message sent successfully. SID: MM5dfd35e41b48d1ad0eaa74b8882665cb
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: yes
+generated p link rev
+reached over here 1
+reached over here 2
+generated p link
+model update success!!!
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1071', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 12:28:24 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2e821a47d6a6e73600ad68a28444989a', 'Twilio-Request-Duration': '0.112', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 42c5ae027ccde3a3511a5e388b43c7ae.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'UZ4HJrgSlFOR_rx66JGBw1Izz2YjkCHGQfXOR9TpP4ITiZ9RD43pkg=='}
+Message sent successfully. SID: SM2e821a47d6a6e73600ad68a28444989a
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+got through the razorpay-webhook!
+pay_PR7XuZYoKDRcDw
+plink_PR7XZNsl521bYl
+
+paid
+47ce2f7da622abcb98f564c78531eba3df8b22cfb8707301b0a131094950db98
+fetched webhook signature in rzp
+---verified---
+{'id': 'pay_PR7XuZYoKDRcDw', 'entity': 'payment', 'amount': 24900, 'currency': 'INR', 'status': 'captured', 'order_id': 'order_PR7Xcl6oFlGqze', 'invoice_id': None, 'international': False, 'method': 'upi', 'amount_refunded': 0, 'refund_status': None, 'captured': True, 'description': '#PR7XZNsl521bYl', 'card_id': None, 'bank': None, 'wallet': None, 'vpa': 'success@razorpay', 'email': 'void@razorpay.com', 'contact': '+917870650300', 'notes': [], 'fee': 588, 'tax': 90, 'error_code': None, 'error_description': None, 'error_source': None, 'error_step': None, 'error_reason': None, 'acquirer_data': {'rrn': '722602070440', 'upi_transaction_id': 'A3473C1AC890C3FE4693A68CCF64EEA3'}, 'created_at': 1732883324, 'upi': {'vpa': 'success@razorpay'}}
+{'payment_id': 'pay_PR7XuZYoKDRcDw', 'amount': 24900, 'contact': '+917870650300'}
+--------------------
+ABOVE IS THE WEBHOOK BODY
+initialized the rzp client
+--------------------
+ABOVE IS THE PAYLOAD!!!
+got payment data !!!----!!!
+pay_PR7XuZYoKDRcDw
+24900
++917870650300
+THESE ARE THE REQUESTS INSIDE process_successful_payment
++917870650300
+reached the zoho breakpoint
+initialized the client
+-----TIMESTAMP-------
+1732878058
+------------------------
+New_User
+-----INVOICE_DATA-------
+{'id': 'inv_PR7YDolDHjnEwk', 'entity': 'invoice', 'receipt': None, 'invoice_number': None, 'customer_id': 'cust_PLXgDrOvi26T7v', 'customer_details': {'id': 'cust_PLXgDrOvi26T7v', 'name': 'recipient.name', 'email': None, 'contact': '+917870650300', 'gstin': None, 'billing_address': {'id': 'addr_PLXgDtM6EmJaM0', 'type': 'billing_address', 'primary': True, 'line1': 'Housing Board Colony,East Indira Nagar, Kankarbagh', 'line2': 'Lohia Nagar, Patna, Bihar, India - 800020', 'zipcode': '801505', 'city': None, 'state': 'Bihar', 'country': 'in', 'contact': None, 'name': None, 'tag': None, 'landmark': None}, 'shipping_address': None, 'customer_name': 'recipient.name', 'customer_email': None, 'customer_contact': '+917870650300'}, 'order_id': 'order_PR7YDwbBZIl40E', 'line_items': [{'id': 'li_PR7YDqE0uxrHe9', 'item_id': None, 'ref_id': None, 'ref_type': None, 'name': 'General Dietary Consultation', 'description': 'anubhooti health', 'amount': 24900, 'unit_amount': 24900, 'gross_amount': 24900, 'tax_amount': 0, 'taxable_amount': 24900, 'net_amount': 24900, 'currency': 'INR', 'type': 'invoice', 'tax_inclusive': False, 'hsn_code': None, 'sac_code': None, 'tax_rate': None, 'unit': None, 'quantity': 1, 'taxes': []}], 'payment_id': None, 'status': 'issued', 'expire_by': None, 'issued_at': 1732883341, 'paid_at': None, 'cancelled_at': None, 'expired_at': None, 'sms_status': 'pending', 'email_status': 'pending', 'date': 1732878058, 'terms': None, 'partial_payment': False, 'gross_amount': 24900, 'tax_amount': 0, 'taxable_amount': 24900, 'amount': 24900, 'amount_paid': 0, 'amount_due': 24900, 'currency': 'INR', 'currency_symbol': '₹', 'description': '+917870650300', 'notes': [], 'comment': None, 'short_url': 'https://rzp.io/rzp/SWw3Cgi1', 'view_less': True, 'billing_start': None, 'billing_end': None, 'type': 'invoice', 'group_taxes_discounts': False, 'created_at': 1732883341, 'ref_num': None}
+------------------------
+--------------2----------
+https://rzp.io/rzp/SWw3Cgi1
+------------4------------
+-----------6-------------
+--------------7----------
+---------------8---------
+-----------9-------------
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1118', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 12:29:02 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2c57be0ba19f56b19cb07e5391376761', 'Twilio-Request-Duration': '0.100', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 42c5ae027ccde3a3511a5e388b43c7ae.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'JQNVQlYq1S3IrBuABc4vcPmeYEika-7jvTKaYeqz7ioBUwCKK7lKLw=='}
+Message sent successfully. SID: SM2c57be0ba19f56b19cb07e5391376761
+------------10------------
+----------11--------------
+Successfully processed payment pay_PR7XuZYoKDRcDw for recipient +917870650300
+processed SUCCESSFUL PAYMENT
+Received message from +917870650300: hfjd
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1760', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 12:58:28 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2aaa207dee388abccf89b498dde5b004', 'Twilio-Request-Duration': '0.137', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 32425d05dba07c0bc08aaf2049c77326.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '6GHAdvzq-hWWePJZ1pIpe2QckIDEwx4i8P8psecYhYUGgObtZFGPhg=='}
+Message sent successfully. SID: MM2aaa207dee388abccf89b498dde5b004
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Not Found: /cdn-cgi/trace
+Not Found: /favicon.ico
+Received message from +918960979714: intraoperative doppler measurement from hadeco japan
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1760', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 14:19:50 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ42804efdb1b7750eb46f3fe88ef0d44c', 'Twilio-Request-Duration': '0.163', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 3ed047b9445f29bd769c4848cba712a0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'VPkAJgVPdhrWw09MXLnlCKiE2_88upGh-8sjrwDTe9zGe6aVV7bbKQ=='}
+Message sent successfully. SID: MM42804efdb1b7750eb46f3fe88ef0d44c
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +918960979714: intraoperative doppler measurement from hadeco japan.pdf
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1760', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 14:19:58 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ83a7170fa57924b6f6762c0654d8fcfc', 'Twilio-Request-Duration': '0.155', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 c13661f9455806125a56201b0ccd2b96.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'n09Wwmf_nZ4NrhWyawgYl9mnXBBjzLq_G1WNYCtdHwHMa18PgpXLLQ=='}
+Message sent successfully. SID: MM83a7170fa57924b6f6762c0654d8fcfc
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Not Found: /.git/config
+Not Found: /cdn-cgi/trace
+Received message from +917870650300: uuu
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1760', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:06:51 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ845c343dcf059b7edd11eb8e9a6ad7a8', 'Twilio-Request-Duration': '0.138', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 6504d64256258122cb818ccf9402cf1a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'T0Ba5yjv3sS7fLRHsXKEKMDiRzWlxzxybFqh3nx1kc8VgOuroapG2w=='}
+Message sent successfully. SID: MM845c343dcf059b7edd11eb8e9a6ad7a8
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: 1
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1412', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:07:16 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ6de91d06c0b6c79ba72bcfe61c0db8d3', 'Twilio-Request-Duration': '0.144', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 b097aefce5c96f6d140009a88452ea4a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'HIzSSxWO0V5qqSpnbWYrLOP1I6HLCiwuLMv8s9Rx_gZNjWMYmwQOEw=='}
+Message sent successfully. SID: MM6de91d06c0b6c79ba72bcfe61c0db8d3
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: menu
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1760', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:07:22 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ6ff890d2375ba70a78dd707e8035bcef', 'Twilio-Request-Duration': '0.148', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 30d6f8dde4b5a27a899bbabad07e3ed2.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '0pGF8njLkLnDLn9HnhGrG9MZmJH_KIQbWCBHDv6bK_vIkEN7irE1TA=='}
+Message sent successfully. SID: MM6ff890d2375ba70a78dd707e8035bcef
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: 5
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1579', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:07:32 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ383b1a9357951401e9063c3347324b8d', 'Twilio-Request-Duration': '0.112', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 bf084b319ce7781c125b74c71a495762.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'NtJFuoV3pLP323nf3ZXuMz65wmQe31uZJ7U19afdTXa03WzMRFkYkA=='}
+Message sent successfully. SID: SM383b1a9357951401e9063c3347324b8d
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /cdn-cgi/trace
+Received message from +917870650300: eeeee
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1760', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:53:16 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ4ef27d8b6003d5255d3d8f91d2438093', 'Twilio-Request-Duration': '0.190', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 ea84202b1f8397767f86ec3f00985a12.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'R2LrZxXPI20NQ0JweVG6UJlG-7zyL_LdfvLvK-nzqHBvvJ_zrVuohA=='}
+Message sent successfully. SID: MM4ef27d8b6003d5255d3d8f91d2438093
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: 1
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1412', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:53:26 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ1e53239ce028c99f20b45bf7d4ffb6cf', 'Twilio-Request-Duration': '0.163', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 caf03e018ab51e743461ee41e1a16c60.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '0z6YjJ5NOe6Bz_jqPcMjfj6PSHrjZ1n9KpYFuYoPUacj8WzTzQpMYQ=='}
+Message sent successfully. SID: MM1e53239ce028c99f20b45bf7d4ffb6cf
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: menu
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1760', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:54:00 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd9be0f3906fab85f30341fe7142e626e', 'Twilio-Request-Duration': '0.139', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 0587d29bba1a416012edbf0b64a7e34c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'Komr1hlRgT6rwFBCVYfIRvQZKkb2gS_PwBCKZ92MNMGVg49ITqB35g=='}
+Message sent successfully. SID: MMd9be0f3906fab85f30341fe7142e626e
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: 5
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1511', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:54:11 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ9e1f796bd1c4fba1ad972e80bec27bc4', 'Twilio-Request-Duration': '0.108', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 e84e3d2180ad6d18a31ea765a099b5b4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '1uKA-XTrkGFUlfqRapogHMt5lVCpaMDP_ceKbja7h2RDrgL7S9tUYA=='}
+Message sent successfully. SID: SM9e1f796bd1c4fba1ad972e80bec27bc4
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: 5
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1790', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:54:51 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQf3e666cc8316ace4c1f1d689aa4754e6', 'Twilio-Request-Duration': '0.108', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 4ba2a246c70464b34e530fdf92bbbd1c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'aya8GwZOyRY-esEyfzZwdu62W03QjbiQeZKW-Zg6ykllmpu0Kh_xOg=='}
+Message sent successfully. SID: SMf3e666cc8316ace4c1f1d689aa4754e6
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: 5
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1539', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:55:24 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ01f6b45ee927491257cb126547653396', 'Twilio-Request-Duration': '0.099', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 56ac9ee632b7bbf3c8d55761ceb503da.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '4lNC6gIG0IGsPXHScOuQrlN-eiQ4goAGYDC-zVv_mglMmpPYzUtTcw=='}
+Message sent successfully. SID: SM01f6b45ee927491257cb126547653396
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: 5
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1120', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:55:49 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ47055b21e36dd6192133f18cb240896f', 'Twilio-Request-Duration': '0.115', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 caf03e018ab51e743461ee41e1a16c60.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '6U7CfIKdJbEU9q1pwgq95zeMgiBH-rK3WkKIi4Ax6xRnI9DejfMq2w=='}
+Message sent successfully. SID: SM47055b21e36dd6192133f18cb240896f
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: 5
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1351', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:55:59 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ8f646dca03d8ff88b8c6a7ed0bac2afa', 'Twilio-Request-Duration': '0.101', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 cd67b0f604ecf8a90d159a43fbfcd1f0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'OuLOvEB-m2YNHxhOrJ2qhjPi2z3r9wcLAyk6q_jRpoIvPBRp_Gc6XA=='}
+Message sent successfully. SID: SM8f646dca03d8ff88b8c6a7ed0bac2afa
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: 5
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1539', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:56:07 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ09f4c9d9a6edb4d46422604d3585ef28', 'Twilio-Request-Duration': '0.098', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 b58fb22cae083768666eb24f7e53ca1c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'qHR7g9xKKj8KYpTtmlde3vjZNXFjX7US4YkhkeLFvUjhsXvHoGpHkw=='}
+Message sent successfully. SID: SM09f4c9d9a6edb4d46422604d3585ef28
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: 5
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1289', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:56:13 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ57de22a3d949e6e9faf57cc6c871dc25', 'Twilio-Request-Duration': '0.114', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 f98d322afc86903bcb00e6abe439512e.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'uwarXoIW_Xg2aB7DB8RIG0xgengs7f5NNggGLfo_HssW6UJIbGVs7w=='}
+Message sent successfully. SID: SM57de22a3d949e6e9faf57cc6c871dc25
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: 3
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1458', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:56:25 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ45d4c416b46cb349c193d398272fbb41', 'Twilio-Request-Duration': '0.133', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5e74c0ff2cab98306165341a430f8994.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'KFBYJDKwYrcglOXTrWtirxkgmUNVdVvWr4WaOENiUYEK6aCOmEsulQ=='}
+Message sent successfully. SID: MM45d4c416b46cb349c193d398272fbb41
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: yes
+generated p link rev
+reached over here 1
+reached over here 2
+generated p link
+model update success!!!
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1075', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:56:36 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2272a8f2c8ca47106e5fcb1570193d5c', 'Twilio-Request-Duration': '0.088', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 42c5ae027ccde3a3511a5e388b43c7ae.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '1DIJbguKA-VM7vyRJVrQblUh3-iy5mgBEWr4I9vADVkMvjB59510qQ=='}
+Message sent successfully. SID: SM2272a8f2c8ca47106e5fcb1570193d5c
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +917870650300: menu
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1760', 'Connection': 'keep-alive', 'Date': 'Fri, 29 Nov 2024 16:57:15 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ636b8b11bfc7cbb4f804f30ec867176b', 'Twilio-Request-Duration': '0.140', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 95708020153fcc9d9a1c90b07d679836.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'HNgaT4wNfn9jhMt1GxFpj6EaPGVjfmQx2KChJIWOqXnzWcUMFGij5A=='}
+Message sent successfully. SID: MM636b8b11bfc7cbb4f804f30ec867176b
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Not Found: /manager/html
+Not Found: /.git/config
+Not Found: /actuator/gateway/routes
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /login.asp
+Not Found: /favicon.ico
+Not Found: /boaform/admin/formLogin
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /cgi-bin/luci/;stok=/locale
+Not Found: /1.
+Not Found: /1.22.
+Not Found: /cdn-cgi/trace
+Not Found: /favicon.ico
+Not Found: /.env
+Not Found: /cgi-bin/index.cgi
+Not Found: /favicon.ico
+Not Found: /webui/
+Not Found: /favicon.ico
+Not Found: /geoserver/web/
+Not Found: /cgi-bin/index.html
+Not Found: /.git/config
+Not Found: /project/.git/config
+Not Found: /src/.git/config
+Not Found: /.envrc
+Not Found: /.gitlab-ci.yml
+Not Found: /files/.git/config
+Not Found: /config.json
+Not Found: /.env.local
+Not Found: /.env.preprod
+Not Found: /.env.production
+Not Found: /.env.production.local
+Not Found: /media../.git/config
+Not Found: /docker-compose.prod.yml
+Not Found: /.env.bak
+Not Found: /.env.config
+Not Found: /.env.docker-compose
+Not Found: /.env.sandbox
+Not Found: /assets../.git/config
+Not Found: /.env.backup
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /favicon.ico
+Not Found: /druid/index.html
+Not Found: /.env
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /login.asp
+Not Found: /actuator/health
+Received message from +918960979714: ezaps conference celerbration week
+
+28th november to 4th december 2024
+
+bidirectional doppler with surgical probes for 16% off
+
+https://kodymedical.com/vascular-doppler/
+
+please like subscribe channal for the domostration of fully automatic abi / tbi & penile studies by hadeco doppler from japan 
+https://studio.youtube.com/video/qlsicwm6lnq/edit
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1760', 'Connection': 'keep-alive', 'Date': 'Sat, 30 Nov 2024 08:17:55 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ18b99c22f5f2ac52cd480e3a72f7be08', 'Twilio-Request-Duration': '0.167', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 fc93b40927ecc3b1d5e4fffeca69b042.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'btRChCUDqq_SjIUfvGGvB-blSxHqF3Vo78fbULekAHKnKU19bibtoA=='}
+Message sent successfully. SID: MM18b99c22f5f2ac52cd480e3a72f7be08
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Received message from +918960979714: 
+Twilio Account SID: AC2cd252c0f046fbe426a05a98fffec024
+-- BEGIN Twilio API Request --
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC2cd252c0f046fbe426a05a98fffec024/Messages.json
+Headers:
+Content-Type : application/x-www-form-urlencoded
+User-Agent : twilio-python/9.3.4 (Linux x86_64) Python/3.11.2
+X-Twilio-Client : python-9.3.4
+Accept-Charset : utf-8
+Accept : application/json
+-- END Twilio API Request --
+Response Status Code: 201
+Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1760', 'Connection': 'keep-alive', 'Date': 'Sat, 30 Nov 2024 08:18:00 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ97af2e7347edf83d5d3e96f6de376732', 'Twilio-Request-Duration': '0.150', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 4ba2a246c70464b34e530fdf92bbbd1c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '_skGVX4w42NKKOK20mMTYrWbd2JumnWkQZn_lpnR1fhA9YprmGqiJQ=='}
+Message sent successfully. SID: MM97af2e7347edf83d5d3e96f6de376732
+SUCCESSFULLY SKIMMED THROUGH WHATSAPP-WEBHOOK
+Not Found: /cdn-cgi/trace
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /.env
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /.env
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /nmaplowercheck1732969524
+Not Found: /sdk
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /evox/about
+Not Found: /HNAP1
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /login.asp
+Not Found: /boaform/admin/formLogin
+Not Found: /cgi-bin/luci/;stok=/locale
+Not Found: /boaform/admin/formLogin
+Not Found: /cdn-cgi/trace
+Not Found: /cdn-cgi/trace
+Not Found: /favicon.ico
+Not Found: /.env.uat
+Not Found: /media/.git/config
+Not Found: /docker-compose.prod.yml
+Not Found: /.env.testing.local
+Not Found: /dev/.git/config
+Not Found: /.env.dist
+Not Found: /.env.secret
+Not Found: /configuration/.env
+Not Found: /backup/.git/config
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /actuator/gateway/routes
+Not Found: /favicon.ico
+Not Found: /cgi-bin/index.cgi
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /.env.prod
+Not Found: /.env.prod.local
+Not Found: /files/.git/config
+Not Found: /config.json
+Not Found: /.env.dev.local
+Not Found: /dev/.git/config
+Not Found: /.env.aws
+Not Found: /static../.git/config
+Not Found: /api/.git/config
+Not Found: /cgi-bin/index.html
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /cdn-cgi/trace
+Not Found: /login.asp
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /favicon.ico
+Not Found: /cgi-bin/hotspotlogin.cgi
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/anubhootihealth/whatsapp_automation/venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+Not Found: /webui/
+Not Found: /favicon.ico
+Not Found: /geoserver/web/
+Not Found: /portal/redlion

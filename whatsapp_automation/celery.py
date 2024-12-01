@@ -13,6 +13,8 @@ app = Celery('whatsapp_automation')
 # Configure Celery using Django settings
 app.config_from_object('django.conf:settings', namespace='CELERY')
 
+app.conf.broker_connection_retry_on_startup = True 
+
 # Auto-discover tasks in all installed apps
 app.autodiscover_tasks(lambda: settings.INSTALLED_APPS)
 
@@ -25,7 +27,7 @@ def debug_task(self):
 app.conf.beat_schedule = {
     'send-scheduled-messages-every-day': {
         'task': 'whatsapp.tasks.send_daily_templates',  # Adjust to your actual app and task path
-        'schedule': crontab(minute='*/3'),
+        'schedule': crontab(hour=11,minute=0),
         'options': {'timezone': 'Asia/Kolkata'}, 
     },
     # Other tasks can be added here
